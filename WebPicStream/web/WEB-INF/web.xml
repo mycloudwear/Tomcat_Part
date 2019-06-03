@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>UpdateTop</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.UpdateTop</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>UpdatePant</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.UpdatePant</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>UpdateSkirt</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.UpdateSkirt</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>UpdateTopList</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.UpdateTopList</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>UpdatePantList</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.UpdatePantList</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>UpdateSkirtList</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.UpdateSkirtList</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>DeleteTopBitmap</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.DeleteTopBitmap</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>DeletePantBitmap</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.DeletePantBitmap</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>DeleteSkirtBitmap</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.DeleteSkirtBitmap</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>UpdateResult</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.UpdateResult</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>DeletePhoto</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.DeletePhoto</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>DeleteAccount</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.DeleteAccount</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>UploadPortrait</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.UploadPortrait</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>GetMatchResult</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.GetMatchResult</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>GetPortrait</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.GetPortrait</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>GetResultPhoto</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.GetResultPhoto</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>GetPantTXT</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.GetPantTXT</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>GetPantPhoto</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.GetPantPhoto</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>GetSkirtTXT</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.GetSkirtTXT</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>GetSkirtPhoto</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.GetSkirtPhoto</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>GetTopTXT</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.GetTopTXT</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>GetTopPhoto</servlet-name>
+        <servlet-class>com.mycloudwear.photolibrary.GetTopPhoto</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdateTop</servlet-name>
+        <url-pattern>/UpdateTop</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>UpdatePant</servlet-name>
+        <url-pattern>/UpdatePant</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>UpdateSkirt</servlet-name>
+        <url-pattern>/UpdateSkirt</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>DeleteTopBitmap</servlet-name>
+        <url-pattern>/DeleteTopBitmap</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>DeletePantBitmap</servlet-name>
+        <url-pattern>/DeletePantBitmap</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>DeleteSkirtBitmap</servlet-name>
+        <url-pattern>/DeleteSkirtBitmap</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>DeleteAccount</servlet-name>
+        <url-pattern>/DeleteAccount</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>UpdateTopList</servlet-name>
+        <url-pattern>/UpdateTopList</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>UpdatePantList</servlet-name>
+        <url-pattern>/UpdatePantList</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>UpdateSkirtList</servlet-name>
+        <url-pattern>/UpdateSkirtList</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>UpdateResult</servlet-name>
+        <url-pattern>/UpdateResult</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>DeletePhoto</servlet-name>
+        <url-pattern>/DeletePhoto</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>UploadPortrait</servlet-name>
+        <url-pattern>/UploadPortrait</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GetPortrait</servlet-name>
+        <url-pattern>/GetPortrait</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GetMatchResult</servlet-name>
+        <url-pattern>/GetMatchResult</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GetResultPhoto</servlet-name>
+        <url-pattern>/GetResultPhoto</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GetPantTXT</servlet-name>
+        <url-pattern>/GetPantTXT</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GetPantPhoto</servlet-name>
+        <url-pattern>/GetPantPhoto</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GetSkirtTXT</servlet-name>
+        <url-pattern>/GetSkirtTXT</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GetSkirtPhoto</servlet-name>
+        <url-pattern>/GetSkirtPhoto</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GetTopTXT</servlet-name>
+        <url-pattern>/GetTopTXT</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GetTopPhoto</servlet-name>
+        <url-pattern>/GetTopPhoto</url-pattern>
+    </servlet-mapping>
+</web-app>
