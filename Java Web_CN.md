@@ -1,0 +1,24 @@
+# Java Web
+
+1. 安装 Tomcat服务器并配置环境
+
+	推荐安装 Tomcat 8. 下载地址: <https://tomcat.apache.org/download-80.cgi>, 
+
+	Mac 下配置方法: <https://www.youtube.com/watch?v=h_qQOVDTxo8>；
+
+	Windows 下配置方法: <https://www.youtube.com/watch?v=grW6afp8yE4>；
+   
+	Linux 下配置方法: <https://www.youtube.com/watch?v=KoXiRXjZgwc>。
+   
+2. 部署 Java Web
+
+   将 MyCloudwearWeb/out/artifacts文件下的全部文件迁移到 Tomcat/webapps文件下，最后在终端里输入两行指令：
+```Java
+	"cd" + 空格 + Tomcat/bin所在的绝对地址
+	./startup.sh
+```
+3. 服务器会对用户的HTTP请求作出回应，服务器接受的请求服务包括一下几类
+	1. 数据库操作(增，删，改，查)；
+	2. 返回和接受图像字符串流并写入到本地文件夹中用户；
+	3. 读写文本，创建或删除目录等。
+
