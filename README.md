@@ -1,3 +1,8 @@
+# Table of Contents
+- [Java Web](#java-web)
+  * [1. Install and configure Apache Tomcat 8:](#1-install-and-configure-apache-tomcat-8-)
+  * [2. Java Web deployment](#2-java-web-deployment)
+  * [3. Features](#3-features)
 # Java Web
 
 ## 1. Install and configure Apache Tomcat 8:
@@ -18,7 +23,7 @@ Migrate all the files under the `MyCloudwearWeb/out/artifacts` to the `Tomcat/we
 	./startup.sh
 
 ```
-## 3. The server responds to users’ HTTP requests, and the services accepted by the server includes the following types:
+## 3. Features
 
 1. Database operation (insert, delete, update, select statements).
 2. Return and accept image string streams and save in webl folders.
