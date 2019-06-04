@@ -21,7 +21,7 @@ Linux 下配置方法: <https://www.youtube.com/watch?v=KoXiRXjZgwc>
 将 MyCloudwearWeb/out/artifacts文件下的全部文件迁移到 Tomcat/webapps文件下，最后在终端里输入两行指令：
 
 ```Java
-"cd" + 空格 + Tomcat/bin所在的绝对地址
+"cd" + 空格 + Tomcat/bin 所在的绝对地址
 ./startup.sh
 ```
 
