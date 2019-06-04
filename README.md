@@ -5,7 +5,7 @@
    * [3. Features](#3-features)
    
 # Java Web
-
+[中文](README_CN.md) | English
 ## 1. Install and configure Apache Tomcat 8:
 
 Download at <https://tomcat.apache.org/download-80.cgi>. 
