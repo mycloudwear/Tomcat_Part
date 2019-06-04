@@ -8,7 +8,9 @@
 
 ## 1. 安装 Tomcat服务器并配置环境
 
-推荐安装 Tomcat 8. 下载地址: <https://tomcat.apache.org/download-80.cgi>
+推荐安装 **Tomcat 8**. 
+
+Tomcat 下载地址: <https://tomcat.apache.org/download-80.cgi>
 
 Mac 下配置方法: <https://www.youtube.com/watch?v=h_qQOVDTxo8>
 
