@@ -5,7 +5,7 @@
     * [3. 功能介绍](#3-功能介绍)
 
 # Java Web
-
+中文|[English](README.md) 
 ## 1. 安装 Tomcat服务器并配置环境
 
 推荐安装 **Tomcat 8**. 
