@@ -31,6 +31,6 @@ Migrate all the files under the `MyCloudwearWeb/out/artifacts` to the `Tomcat/we
 ```
 ## 3. Features
 
-1. Database operation (insert, delete, update, select statements).
-2. Return and accept image string streams and save in webl folders.
-3. Read and write text, create or delete directories, etc.
+* Database operation (insert, delete, update, select statements).
+* Return and accept image string streams and save in webl folders.
+* Read and write text, create or delete directories, etc.
