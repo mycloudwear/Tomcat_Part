@@ -1,8 +1,8 @@
 # 目录
-- [Java Web](#java-web)
-  * [1. 安装 Tomcat服务器并配置环境](#1----tomcat--------)
-  * [2. 部署 Java Web](#2----java-web)
-  * [3. 功能介绍](#3-----)
+* [Java Web](#java-web)
+    * [1. 安装 Tomcat服务器并配置环境](#1-安装-tomcat服务器并配置环境)
+    * [2. 部署 Java Web](#2-部署-java-web)
+    * [3. 功能介绍](#3-功能介绍)
 
 # Java Web
 
@@ -21,8 +21,8 @@ Linux 下配置方法: <https://www.youtube.com/watch?v=KoXiRXjZgwc>
 将 MyCloudwearWeb/out/artifacts文件下的全部文件迁移到 Tomcat/webapps文件下，最后在终端里输入两行指令：
 
 ```Java
-	"cd" + 空格 + Tomcat/bin所在的绝对地址
-	./startup.sh
+"cd" + 空格 + Tomcat/bin所在的绝对地址
+./startup.sh
 ```
 
 ## 3. 功能介绍
