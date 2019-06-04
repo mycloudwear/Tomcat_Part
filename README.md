@@ -1,8 +1,9 @@
 # Table of Contents
-- [Java Web](#java-web)
-  * [1. Install and configure Apache Tomcat 8:](#1-install-and-configure-apache-tomcat-8-)
-  * [2. Java Web deployment](#2-java-web-deployment)
-  * [3. Features](#3-features)
+* [Java Web](#java-web)
+   * [1. Install and configure Apache Tomcat 8:](#1-install-and-configure-apache-tomcat-8)
+   * [2. Java Web deployment](#2-java-web-deployment)
+   * [3. Features](#3-features)
+   
 # Java Web
 
 ## 1. Install and configure Apache Tomcat 8:
@@ -19,8 +20,8 @@ Install Apache Tomcat on Ubuntu 16.04: <https://www.youtube.com/watch?v=KoXiRXjZ
 Migrate all the files under the `MyCloudwearWeb/out/artifacts` to the `Tomcat/webapps`, then enter two lines of commands in the terminal:
 
 ```Java
-	"cd" + blank space + the absolute address where Tomcat/bin is located
-	./startup.sh
+"cd" + blank space + the absolute address where Tomcat/bin is located
+./startup.sh
 
 ```
 ## 3. Features
