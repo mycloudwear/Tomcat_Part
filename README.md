@@ -5,6 +5,10 @@
    * [3. Features](#3-features)
    
 # Java Web
+[![License](https://img.shields.io/badge/License-Apache%202-brightgreen.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![JDK](https://img.shields.io/badge/JDK-8u212%20-orange.svg)](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+[![Dependencies](https://img.shields.io/badge/Dependencies-up%20to%20date-green.svg)](https://dev.mysql.com/downloads/connector/j/5.1.html)
+
 [中文](README_CN.md) | English
 ## 1. Install and configure Apache Tomcat 8:
 
