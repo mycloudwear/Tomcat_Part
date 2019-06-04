@@ -5,6 +5,10 @@
     * [3. 功能介绍](#3-功能介绍)
 
 # Java Web
+[![License](https://img.shields.io/badge/License-Apache%202-brightgreen.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![JDK](https://img.shields.io/badge/JDK-8u212%20-orange.svg)](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+[![Dependencies](https://img.shields.io/badge/Dependencies-up%20to%20date-green.svg)](https://dev.mysql.com/downloads/connector/j/5.1.html)
+
 中文 | [English](README.md) 
 ## 1. 安装 Tomcat服务器并配置环境
 
